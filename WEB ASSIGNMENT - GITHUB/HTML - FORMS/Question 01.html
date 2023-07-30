@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title> Question 02 </title>
+</head>
+<body><center>
+    <h1>Registration Form</h1>
+    <form name="application" action="nsbm.php" method="post">
+    <table>
+        <tr>
+            <td><label for="firstname"> First Name</label></td>
+            <td><input type="text" id="firstname" name="firstname" required></td>
+        </tr>
+        <tr>
+            <td><label for="lastname"> Last Name</label></td>
+            <td><input type="text" id="lastname" name="lastname" required></td>
+        </tr>
+        <tr>
+            <td><label for="mobilenumber"> Mobile Number</label></td>
+            <td><input type="number" id="mobilenumber" name="mobilenumber" required></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                Male
+                <input type="radio" id="female" name="gender" value="female">
+                Female
+            </td>
+            
+        </tr>
+        <tr>
+            <td><label for="email"> Email</label></td>
+            <td><input type="mail" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="favouritemusic">Favourite Music</label></td>
+            <td>
+                <input type="checkbox" id="pop" name="favouritemusic" value="pop">
+                <label for="pop">POP</label>
+                <input type="checkbox" id="rock" name="favouritemusic" value="rock">
+                <label for="rock">Rock</label>
+                <input type="checkbox" id="other" name="favouritemusic" value="other">
+                <label for="other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="additionalDetails">Additional Details</label></td>
+            <td><textarea id="additionalDetails" name="additionalDetails" row="4" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+            <input type="checkbox" id="termsandconditions" name="termsandconditions" required>
+            <label for="termsandconditions">I agree to the terms and conditions</label>
+            </td>
+        </tr>
+    </table>
+     
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+  </center>
+</body>
+</html>
+    
+</html>
